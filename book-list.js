@@ -60,7 +60,7 @@ const loadBooks = () => {
                         <hr>
 
                         <button type="button" class="btn btn-danger">Delete</button>
-                        <button types="button" class="btn btn-primary" data-toggle="modal"
+                        <button type="button" class="btn btn-primary" data-toggle="modal"
                             data-target="#editBookModal" onClick="setEditModal(${book.isbn})">
                             Edit
                         </button>
